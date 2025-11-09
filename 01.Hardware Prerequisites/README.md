@@ -18,7 +18,7 @@
 
 6.  **USB Keyboard & Mouse:** Standard wired or wireless peripherals to control your Pi.
 
-   ### ![][image1]
+   ![][image1]
 
 #### 
 

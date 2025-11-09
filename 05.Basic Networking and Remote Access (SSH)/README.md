@@ -131,8 +131,8 @@ ssh yourusername@\<your-pi-ip-address\>
 
 The very first time you connect, you will see a security message like this:
 
-| ![][image3] |
-| :---- |
+![][image3] 
+
 
 This is completely normal. Your computer is just asking you to verify that this is a new device you trust.
 

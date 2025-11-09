@@ -50,37 +50,45 @@ This is the most important step. We will use the Raspberry Pi Imager on your com
 
 **Insert your microSD card** into your computer's SD card reader. If your computer doesn't have one, you will need a **USB SD card reader**.
 
-**Open the Raspberry Pi Imager** application.![][image1]
+**Open the Raspberry Pi Imager** application.
+
+   ![][image1]
 
 Click the **"CHOOSE DEVICE"** button. A list will pop up. Select **"Raspberry Pi 4"**.
 
-![][image2]
+   ![][image2]
 
 Click the **"CHOOSE OS"** button.
 
 * A menu will appear. Navigate to:  
-  `Other general-purpose OS` \-\> `Ubuntu` \-\> `Ubuntu Desktop 22.04.X LTS (64-bit)![][image3]`  
+  `Other general-purpose OS` \-\> `Ubuntu` \-\> `Ubuntu Desktop 22.04.X LTS (64-bit)`
+
+   ![][image3]`  
   
 
 
   Click the **"CHOOSE STORAGE"** button.  
   * A list of connected drives will appear. Carefully select your microSD card.
 
-  **\!\! WARNING \!\!** This process will **ERASE ALL DATA** from the drive you select. Double-check that you have selected the correct microSD card and not a regular hard drive or USB stick.![][image4]![][image5]
+  **\!\! WARNING \!\!** This process will **ERASE ALL DATA** from the drive you select. Double-check that you have selected the correct microSD card and not a regular hard drive or USB stick.
 
-         	Click “**Next**”
+   ![][image4]
+  
+   ![][image5]
+
+   Click “**Next**”
 
 
   
 
-    A final warning will appear, reminding you that all data will be erased. Click **"YES"** continue.
+   A final warning will appear, reminding you that all data will be erased. Click **"YES"** continue.
 
-  	![][image6]
+   ![][image6]
 
 
   The Imager will now **download the Ubuntu image** and then write it to the card and verify it. This process can take 10-20 minutes, so be patient.
 
-  	![][image7]
+   ![][image7]
 
   When it's finished, a message will pop up saying the write was **successful**. You can now close the Imager and safely eject the microSD card from your computer.
 
