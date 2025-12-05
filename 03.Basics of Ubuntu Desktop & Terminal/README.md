@@ -2,7 +2,7 @@
 
 Welcome to your new Ubuntu desktop\! Now that the operating system is installed, this chapter will help you get comfortable with the visual interface (the "desktop") and the powerful command-line interface (the "terminal").
 
-#### **4.1 Navigating the Desktop**
+#### **3.1 Navigating the Desktop**
 
 ![][image1]
 
@@ -17,7 +17,7 @@ The Ubuntu desktop (which uses an interface called "GNOME") is clean and easy to
 3. **Finding Files:** Click the "Files" icon (looks like a filing cabinet) on the Activities Bar. This will open the file manager, where you can browse your `Documents`, `Downloads`, `Pictures`, etc., just like on Windows or macOS.  
 4. **Finding Applications:** Click the 9-dot "Show Applications" icon at the bottom of the Dock. You can then type the name of any app you're looking for, such as `Firefox` (your web browser) or `Terminal`.
 
-## **4.2 Introduction to the Linux Terminal**
+## **3.2 Introduction to the Linux Terminal**
 
 While the desktop is great for many tasks, the **Terminal** (also called the "command line") is the most powerful tool in Linux. It allows you to run commands, install software, and configure your system by typing text. For IoT projects, using the terminal is essential.
 
@@ -35,7 +35,7 @@ While the desktop is great for many tasks, the **Terminal** (also called the "co
 
 You will now see a window with a blinking cursor, ready for your commands.
 
-## **4.3 Essential Commands for Beginners**
+## **3.3 Essential Commands for Beginners**
 
 A command is made up of a program's name followed by *options* or *arguments*. Let's learn the five most important ones.
 
@@ -94,7 +94,7 @@ nano test.txt
 
 #### 
 
-## **4.4 Keeping Your System Updated**
+## **3.4 Keeping Your System Updated**
 
 Just like Windows or macOS, your Ubuntu system receives security patches and software updates. It's crucial to keep your system updated. We do this using a tool called `apt` (Advanced Package Tool), and we must use `sudo` to run it.
 

@@ -2,7 +2,7 @@
 
 This chapter provides a complete, step-by-step guide to installing the full **Ubuntu Desktop** operating system on your **Raspberry Pi**. We will cover downloading the necessary tools for **Windows**, **macOS**, and **Linux**, and then walk through the entire installation process.
 
-### **3.1 Why Ubuntu?**
+### **2.1 Why Ubuntu?**
 
 While the Raspberry Pi has its own official OS (Raspberry Pi OS), we are using **Ubuntu Desktop** for this guide. Ubuntu is one of the most popular and powerful versions of Linux in the world.
 
@@ -12,7 +12,7 @@ The benefits for us include:
 * **Strong Community Support:** A massive global community means that if you have a problem, it's very likely someone has already solved it and posted the answer online.  
 * **Software Availability:** A wide range of software is readily available and easy to install.
 
-### **3.2 Downloading the Tools**
+### **2.2 Downloading the Tools**
 
 Before we begin, you only need to download one item to your main computer (your Windows PC, Mac, or Linux machine).
 
@@ -44,7 +44,7 @@ Before we begin, you only need to download one item to your main computer (your 
 2. This will install the Imager just like any other application.  
    
 
-## **3.3 Flashing the OS to the microSD Card**
+## **2.3 Flashing the OS to the microSD Card**
 
 This is the most important step. We will use the Raspberry Pi Imager on your computer to "flash" (write) Ubuntu to your microSD card. The Imager's interface is identical on Windows, macOS, and Linux.
 
@@ -94,7 +94,7 @@ Click the **"CHOOSE OS"** button.
 
 #### 
 
-## **3.5 First Boot and Initial Setup**
+## **2.5 First Boot and Initial Setup**
 
 Your microSD card is now a bootable Ubuntu drive. Let's start with the Pi.
 

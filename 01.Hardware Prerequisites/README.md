@@ -2,7 +2,7 @@
 
  Before you can start, you'll need to gather a few key components. This chapter is split into the *essentials* to get the Pi running, and the *recommended* parts for our IoT projects.
 
-## **2.1 Essential Components**
+## **1.1 Essential Components**
 
 #### These are the non-negotiable items you need to follow this guide.
 
@@ -26,7 +26,7 @@
 
 #### 
 
-## **2.2 Recommended Components for IoT Projects**
+## **1.2 Recommended Components for IoT Projects**
  To follow along with **Chapters 4** and **6** you will need these common electronics parts. 
 
 *  **Breadboard:** A plastic board that lets you build and test circuits without soldering.
@@ -43,7 +43,7 @@
 
 #### 
 
-## **2.3 Assembling Your Kit**
+## **1.3 Assembling Your Kit**
 
  Let's connect everything for the first time. It's best to do this *before* you plug in the power.
 

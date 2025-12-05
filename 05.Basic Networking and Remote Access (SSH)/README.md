@@ -2,7 +2,7 @@
 
 Now that your Raspberry Pi is running projects, you probably don't want to leave a full keyboard, mouse, and monitor attached to it forever. This is where networking comes in. In this chapter, you'll learn how to find your Pi on the network and control it remotely from your main computer.
 
-## **6.1 Checking Your Connection**
+## **5.1 Checking Your Connection**
 
 Before you can connect *to* your Pi, you need to know its address. On a network, this is called an **IP Address** (Internet Protocol address). Each device on your Wi-Fi or wired network has a unique one (e.g., `192.168.1.14`).
 
@@ -43,7 +43,7 @@ ping google.com
 2. If you have an internet connection, you will see replies coming back, showing you the response time.  
 3. To stop `ping`, press `Ctrl + C`.
 
-## **6.2 Remote Access with SSH**
+## **5.2 Remote Access with SSH**
 
 **What is SSH?**
 
