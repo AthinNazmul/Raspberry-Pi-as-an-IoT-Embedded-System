@@ -177,7 +177,7 @@ This error occurs when trying to use a newer version of the libedgetpu library (
 pip3 uninstall tensorflow  
 pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_armv7l.whl  
 ```
-(Or, if you're using Python 3.5, use pip3 install https://dl.google.com/coral/python/tflite\_runtime-2.1.0.post1-cp35-cp35m-linux\_armv7l.whl instead.)
+(Or, if you're using Python 3.5, use pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp35-cp35m-linux_armv7l.whl instead.)
 
 Then, re-run the TFLite detection script. It should work now\!
 
