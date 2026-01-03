@@ -178,11 +178,11 @@ By adding different options, you can set the size and look of the image the ras
 
 * For example, add **\-h** and **\-w** to change the height and width of the image.
 ```   
-raspistill \-o Desktop/image-small.jpg \-w 640 \-h 480  
+raspistill -o Desktop/image-small.jpg -w 640 -h 480  
 ```
 * Now record a video with the Camera Module by using the following raspivid command in the terminal:
 ```
-raspivid \-t 10000 \-o Desktop/video.h264
+raspivid -t 10000 -o Desktop/video.h264
 ```
   This records a ten-second video (10,000 milliseconds) at the 1920 × 1080 resolution.
 

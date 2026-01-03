@@ -65,7 +65,7 @@ sudo pip3 install virtualenv
 
 Then, let’s create a new virtual environment (or a new room\!) for our object detection model, 
 ```
-python3 \-m venv objDetection-env
+python3 -m venv objDetection-env
 ```
 This will create a folder called objDetection-env inside the objDetection directory. The objDetection-env folder will hold all the package libraries for this environment. 
 
@@ -89,7 +89,10 @@ Simply, add the command (sudo apt-get install libopenblas-dev) inside the “get
 
 For this, run the following commands, 
 ```
-bash get\_pi\_requirements.sh sudo apt-get install libopenblas-dev pip uninstall numpy pip install numpy==1.26.4
+bash get_pi_requirements.sh
+sudo apt-get install libopenblas-dev
+pip uninstall numpy 
+pip install numpy==1.26.4
 ```
 This downloads about 400MB worth of installation files, so it may take a while. 
 
@@ -107,19 +110,20 @@ Next, let’s install TensorFlow, OpenCV, and all other dependencies needed for 
 
 We can download this model using the command:
 ```
-wget https://storage.googleapis.com/download.tensorflow.org/models/tflite/coco\_ssd\_mobilenet\_v1\_1.0\_quant\_2018\_06\_29.zip
+wget 
+https://storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip
 ```
 
 Then, unzip it to a folder called "Sample\_TFLite\_model" by issuing (this command automatically creates the folder):
 ```
-unzip coco\_ssd\_mobilenet\_v1\_1.0\_quant\_2018\_06\_29.zip \-d Sample\_TFLite\_model
+unzip coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip -d Sample_TFLite_model
 ```
 Now, it’s finally time to run the model\! 
 
 First, check once again, that Pi cam is working properly (as per previous tutorial). Then, run the   
 TFLite\_detection\_webcam.py (downloaded from the git repository we imported) by simply issuing the following command:
 ```
-python3 TFLite\_detection\_webcam.py \--modeldir=Sample\_TFLite\_model
+python3 TFLite_detection_webcam.py --modeldir=Sample_TFLite_model
 ```
 
 **If you’ve done everything correctly**, after a few moments of initializing, a window will appear showing the webcam feed. Detected objects will have bounding boxes and labels displayed on them in real time. 
@@ -171,7 +175,7 @@ This error can occur when you run the bash get\_pi\_requirements.sh command in S
 This error occurs when trying to use a newer version of the libedgetpu library (v13.0 or greater) with an older version of TensorFlow (v2.0 or older). It can be resolved by uninstalling your current version of TensorFlow and installing the latest version of the tflite\_runtime package. Issue these commands (make sure you are inside the tflite1-env virtual environment):
 ```
 pip3 uninstall tensorflow  
-pip3 install https://dl.google.com/coral/python/tflite\_runtime-2.1.0.post1-cp37-cp37m-linux\_armv7l.whl  
+pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_armv7l.whl  
 ```
 (Or, if you're using Python 3.5, use pip3 install https://dl.google.com/coral/python/tflite\_runtime-2.1.0.post1-cp35-cp35m-linux\_armv7l.whl instead.)
 
