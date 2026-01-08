@@ -143,6 +143,15 @@ If successful, you will see your Raspberry Pi's command prompt (e.g., `yourusern
 
 You are now controlling your Raspberry Pi's terminal from your main computer\! You can run any command, like `ls`, `nano blink.py`, or `sudo apt update`.
 
+
+
+
+---
+
+### Next Chapter
+
+➡️ **[Computer Vision with Raspberry Pi](../06.Computer%20Vision%20with%20Raspberry%20Pi/README.md)**
+
 [image1]: <../assets/05-basic-networking-and-remote-access-ssh/image1.png>
 
 [image2]: <../assets/05-basic-networking-and-remote-access-ssh/image2.png>

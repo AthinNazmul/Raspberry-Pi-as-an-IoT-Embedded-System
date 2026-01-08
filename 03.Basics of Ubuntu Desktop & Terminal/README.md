@@ -98,6 +98,9 @@ nano test.txt
 
 Just like Windows or macOS, your Ubuntu system receives security patches and software updates. It's crucial to keep your system updated. We do this using a tool called `apt` (Advanced Package Tool), and we must use `sudo` to run it.
 
+---
+
+
 There are two steps:
 
 **Step 1: `sudo apt update`**
@@ -123,5 +126,11 @@ sudo apt upgrade
 * This may take 10-20 minutes as it downloads and installs all the updates.
 
 You should run these two commands regularly (once a week or so) to keep your Raspberry Pi secure and up-to-date.
+
+
+
+### Next Chapter
+
+➡️ **[Programming with Python and GPIO](../04.Programming%20with%20Python%20and%20GPIO/README.md)**
 
 [image1]: <../assets/03-basics-of-ubuntu-desktop-terminal/image1.png>

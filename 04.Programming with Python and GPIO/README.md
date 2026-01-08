@@ -11,16 +11,23 @@ Python is a beginner-friendly programming language that's perfect for the Raspbe
 In your home directory, let's create a new folder for our projects:  
 mkdir Projects
 
-2. Move into that new directory:  
+2. Move into that new directory: 
+   ```
    cd Projects  
+   ```
 3. Use `nano` to create a new Python file. We'll call it `hello.py`.  
+   ```
    nano hello.py  
-4. In the `nano` editor, type the following single line of code:  
-   print("Hello, World\! This is my Raspberry Pi.")  
-5. **Save and exit** `nano`:  
-   * Press `Ctrl + X`.  
-   * Press `Y` to save.  
-   * Press `Enter` to confirm the filename.
+   ```
+4. In the `nano` editor, type the following single line of code: 
+   ```
+   print("Hello, World! This is my Raspberry Pi.") 
+   ``` 
+   **![][image2]**
+
+5.  **Save and exit** `nano`:  
+   * Press `Ctrl + S` to save.  
+   * Press `Ctrl + X` to exit.  
 
 Now, run your script using the `python3` command:
 ``` 
@@ -33,7 +40,7 @@ python3 hello.py
 ## **4.2 Understanding the GPIO Pins**
 
 The **GPIO** pins are a **40-pin** header on your **Raspberry Pi** that allows it to talk to other hardware, like LEDs, sensors, and motors.
-
+**![][image1]**
 Here's what you need to know:
 
 * **GPIO:** These are the "**general purpose**" pins you can control. They can be set as an **output** (to send a signal, like turning on an LED) or an **input** (to read a signal, like a button press).  
@@ -56,8 +63,27 @@ sudo apt install python3-rpi.gpio
 
 2. This will download and install the library. You're now ready to build circuits.
 
+---
+
+## **Projects**
+
+Now that you have the basics down, it's time to build some hands-on projects:
+
+1. **[Project 1: Blinking an LED](Project%201%3A%20Blinking%20an%20LED.md)** - Learn to control GPIO output pins by making an LED blink.
+
+2. **[Project 2: Reading a Sensor (Push Button)](Project%202%3A%20Reading%20a%20Sensor%20%28Push%20Button%29.md)** - Learn to read GPIO input pins by detecting button presses.
+
+3. **[Project 3: Raspberry Pi - DHT11/DHT22 Temperature and Humidity](Project%203%20%3A%20Raspberry%20Pi-%20DHT11_DHT22%20Temperature%20and%20Humidity.md)** - Read temperature and humidity data from DHT sensors.
+
+---
+
+### Next Chapter
+
+➡️ **[Basic Networking and Remote Access (SSH)](../05.Basic%20Networking%20and%20Remote%20Access%20%28SSH%29/README.md)**
 
 
+[image1]: <../assets/root/image2.png>
+[image2]: <../assets/04-programming-with-python-and-gpio/hello.png>
 
 
 

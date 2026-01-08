@@ -56,5 +56,10 @@
 4.  **Connect Power (Last\!):** This is the final step. Plug your USB-C power supply into the Pi.
 
 #### The Pi does not have a power button. As soon as you plug it in, it will boot up. You should see a red power light come on, and after a few seconds, text and then the Ubuntu setup screen (from Chapter 3\) should appear on your monitor.
+---
+
+### Next Chapter
+
+➡️ **[Installing the Operating System (Ubuntu Desktop)](../02.Installing%20the%20Operating%20System%20%28Ubuntu%20Desktop%29/README.md)**
 
 [image1]: <../assets/01-hardware-prerequisites/image1.png>

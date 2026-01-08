@@ -116,6 +116,14 @@ Your microSD card is now a bootable Ubuntu drive. Let's start with the Pi.
 
 ### **Congratulations**\! You have successfully installed a full **Ubuntu Desktop** on your **Raspberry Pi.**
 
+
+
+---
+
+### Next Chapter
+
+➡️ **[Basics of Ubuntu Desktop & Terminal](../03.Basics%20of%20Ubuntu%20Desktop%20%26%20Terminal/README.md)**
+
 [image1]: <../assets/02-installing-the-operating-system-ubuntu-desktop/image1.png>
 
 [image2]: <../assets/02-installing-the-operating-system-ubuntu-desktop/image2.png>

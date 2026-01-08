@@ -67,4 +67,10 @@ sudo python3 blink.py
 2. Look at your breadboard. Your LED should be blinking on and off every second\!  
 3. To stop the program, go to your terminal and press `Ctrl + C`. The `GPIO.cleanup()` command will run, turning the LED off.
 
+---
+
+### Next Project
+
+➡️ **[Project 2: Reading a Sensor (Push Button)](Project%202%3A%20Reading%20a%20Sensor%20%28Push%20Button%29.md)**
+
 [image1]: <../assets/04-programming-with-python-and-gpio/image1.png>

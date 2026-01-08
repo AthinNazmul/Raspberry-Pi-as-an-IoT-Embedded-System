@@ -16,6 +16,15 @@ Now let's try an input. We'll use a push button to turn the LED on and off.
 4. Connect one leg of the button to a **3V3** pin on the Raspberry Pi.  
 5. Connect the other leg of the button to **GPIO 27** (pin 13).
 
+**Circuit Diagram:**
+
+| Component | Connection |
+| :---- | :---- |
+| **LED Anode (long leg)** | Resistor (330Ω) → GPIO 17 |
+| **LED Cathode (short leg)** | GND |
+| **Push Button - Leg 1** | 3V3 |
+| **Push Button - Leg 2** | GPIO 27 |
+
 **The Code:**
 
 1. Create a new file: `nano button.py`
@@ -60,3 +69,9 @@ sudo python3 button.py
 
 2. The LED should be off. Now, press and hold the button on your breadboard. The LED will light up\! Release it, and the LED will turn off.  
 3. Press `Ctrl + C` to stop the program.
+
+---
+
+### Next Project
+
+➡️ **[Project 3: Raspberry Pi - DHT11/DHT22 Temperature and Humidity](Project%203%20%3A%20Raspberry%20Pi-%20DHT11_DHT22%20Temperature%20and%20Humidity.md)**
